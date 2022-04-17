@@ -11,5 +11,5 @@ target_link_libraries(FlappyBird sfml-graphics sfml-window sfml-system sfml-audi
 add_custom_command(
         TARGET FlappyBird POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_directory
-        ${CMAKE_SOURCE_DIR}/resources/
-        ${CMAKE_CURRENT_BINARY_DIR}/resources/)
+        ${CMAKE_SOURCE_DIR}/assets/
+        ${CMAKE_CURRENT_BINARY_DIR}/assets/)

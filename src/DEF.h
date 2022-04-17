@@ -1,0 +1,8 @@
+#ifndef FLAPPYBIRD_DEF_H
+#define FLAPPYBIRD_DEF_H
+
+#define SCREEN_WIDTH 480
+#define SCREEN_HEIGHT 640
+#define WINDOW_TITLE "Flappy Bird"
+
+#endif //FLAPPYBIRD_DEF_H
